@@ -1,2 +1,30 @@
 # my-first-game-2048
-This is my first gam which is named 2048.Obviously，it is just a simple 2048game.
+# 2048
+
+一个用 Python + Pygame 制作的经典 2048 小游戏，带滑动/合并动画和分场景背景音乐。
+
+## 功能特色
+
+- 完整的 2048 玩法：移动、合并、计分
+- 方块滑动与合并的弹跳动画
+- 分场景音乐：菜单曲 / 游戏曲 / 胜利与结束小调（全部由代码合成，无版权）
+- 主菜单、玩法说明、胜利与失败界面
+- 最高分本地保存
+
+## 如何运行
+
+1. 安装 Python 3
+2. 安装 Pygame：
+pip install pygame
+3. 运行游戏：
+python main.py
+
+## 操作方式
+
+- 方向键 ↑↓←→ 或 W / A / S / D：移动方块
+- M 键：开 / 关声音
+- ESC：返回菜单
+
+## 声音说明
+
+所有音效与音乐均由 `generate_sounds.py` 用代码合成，可自行修改重新生成。
